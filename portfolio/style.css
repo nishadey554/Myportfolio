@@ -1,0 +1,223 @@
+/* === Global Styles === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6b81;
+}
+
+/* === Home Section === */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom right, #fbc2eb, #a6c1ee);
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: #3f3d56;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+button, .btn {
+    background-color: #ff6b81;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff4757;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #3f3d56;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff6b81;
+}
+
+/* === About Section === */
+#about {
+    background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #3f3d56;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* === Skills Section === */
+#skills {
+    background-color: #fff9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #ffe0e9;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #c44569;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+/* === Projects Section === */
+#projects {
+    padding: 60px 20px;
+    background: #f3f0ff;
+    text-align: center;
+}
+
+.project-box {
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+.project-box h3 {
+    color: #6a0572;
+}
+
+.project-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6b81;
+    text-decoration: none;
+}
+.project-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+
+/* === Contact Section === */
+#contact {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    text-align: center;
+    color: #3f3d56;
+}
+
+/* === Footer === */
+footer {
+    background-color: #f8cdda;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff69b4;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
